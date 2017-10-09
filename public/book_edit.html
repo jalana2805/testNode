@@ -60,7 +60,7 @@
 <script>
     $.ajax({
         type:"GET",
-        url:"http://localhost:3000/api/stores",
+        url:"/api/stores",
         success:(data,status,xhr)=>{
             data.map((item)=>{
                 $('#stores').append($('<option>',{
