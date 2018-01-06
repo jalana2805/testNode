@@ -31,7 +31,8 @@
     
     $.ajax({
         type:"GET",
-        url:"/api/books?limit=3&ord=desc",
+        //url:"/api/books?limit=3&ord=desc",
+        url:"http://localhost:3000/api/books?ord=asc",
         success:(data,status,xhr)=>{
             let template = ``;
             data.map((item)=>{

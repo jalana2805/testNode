@@ -9,7 +9,7 @@ body {
 header {
     padding:20px;
     box-sizing: border-box;
-    background: red;
+    background: rgb(70, 109, 228);
 }
 
 header a {
