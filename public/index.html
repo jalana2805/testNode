@@ -31,7 +31,7 @@
     
     $.ajax({
         type:"GET",
-        url:"/api/books?limit=3&ord=desc",      
+        url:"/api/books?limit=5&ord=desc",      
         success:(data,status,xhr)=>{
             let template = ``;
             data.map((item)=>{
